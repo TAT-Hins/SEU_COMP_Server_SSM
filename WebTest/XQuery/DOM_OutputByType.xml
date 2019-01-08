@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<NEWCATALOG>
+	<jpg>
+		<picture id="1" name="item1" sort="item">
+			<size>130460</size>
+			<pixel height="700" width="900">700x900</pixel>
+			<address>http://img.sccnn.com/bimg/341/00001.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="2" name="logo1" sort="logo">
+			<size>51781</size>
+			<pixel height="600" width="450">600x450</pixel>
+			<address>http://img.sccnn.com/bimg/341/00002.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="3" name="technology1" sort="technology">
+			<size>22750</size>
+			<pixel height="560" width="400">560x400</pixel>
+			<address>http://img.sccnn.com/bimg/341/00003.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="4" name="item2" sort="item">
+			<size>22706</size>
+			<pixel height="800" width="429">800x429</pixel>
+			<address>http://img.sccnn.com/bimg/341/00004.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="5" name="logo2" sort="logo">
+			<size>100519</size>
+			<pixel height="590" width="570">590x570</pixel>
+			<address>http://img.sccnn.com/bimg/341/00005.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="6" name="logo3" sort="logo">
+			<size>98219</size>
+			<pixel height="660" width="973">660x973</pixel>
+			<address>http://img.sccnn.com/bimg/341/00006.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="8" name="poster1" sort="poster">
+			<size>131458</size>
+			<pixel height="490" width="900">490x900</pixel>
+			<address>http://img.sccnn.com/bimg/341/00008.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="11" name="poster2" sort="poster">
+			<size>129070</size>
+			<pixel height="900" width="900">900x900</pixel>
+			<address>http://img.sccnn.com/bimg/341/00011.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="13" name="poster4" sort="poster">
+			<size>137157</size>
+			<pixel height="800" width="829">800x829</pixel>
+			<address>http://img.sccnn.com/bimg/341/00013.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="14" name="poster5" sort="poster">
+			<size>101848</size>
+			<pixel height="560" width="785">560x785</pixel>
+			<address>http://img.sccnn.com/bimg/341/00014.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="16" name="item3" sort="item">
+			<size>61531</size>
+			<pixel height="780" width="600">780x600</pixel>
+			<address>http://img.sccnn.com/bimg/341/00016.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="17" name="item4" sort="item">
+			<size>34124</size>
+			<pixel height="600" width="403">600x403</pixel>
+			<address>http://img.sccnn.com/bimg/341/00017.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="18" name="item5" sort="item">
+			<size>31177</size>
+			<pixel height="670" width="405">670x405</pixel>
+			<address>http://img.sccnn.com/bimg/341/00018.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="19" name="view1" sort="view">
+			<size>75080</size>
+			<pixel height="680" width="546">680x546</pixel>
+			<address>http://img.sccnn.com/bimg/341/00019.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="20" name="logo7" sort="logo">
+			<size>40224</size>
+			<pixel height="600" width="400">600x400</pixel>
+			<address>http://img.sccnn.com/bimg/341/00020.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="24" name="advertising4" sort="advertising">
+			<size>333333</size>
+			<pixel height="700" width="800">700x800</pixel>
+			<address>http://img.sccnn.com/bimg/341/00024.jpg</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+		<picture id="25" name="advertising5" sort="advertising">
+			<size>444405</size>
+			<pixel height="850" width="500">850x500</pixel>
+			<address>http://img.sccnn.com/bimg/341/00025.jpg</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+		<picture id="26" name="advertising6" sort="advertising">
+			<size>222205</size>
+			<pixel height="850" width="650">850x650</pixel>
+			<address>http://img.sccnn.com/bimg/341/00026.jpg</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+	</jpg>
+	<gif>
+		<picture id="9" name="advertising1" sort="advertising">
+			<size>60856</size>
+			<pixel height="700" width="350">700x350</pixel>
+			<address>http://img.sccnn.com/bimg/341/00009.gif</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="12" name="poster3" sort="poster">
+			<size>83083</size>
+			<pixel height="700" width="878">700x878</pixel>
+			<address>http://img.sccnn.com/bimg/341/00012.gif</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="22" name="advertising3" sort="advertising">
+			<size>12367</size>
+			<pixel height="600" width="800">600x800</pixel>
+			<address>http://img.sccnn.com/bimg/341/00022.gif</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+		<picture id="23" name="poster6" sort="poster">
+			<size>222222</size>
+			<pixel height="567" width="800">567x800</pixel>
+			<address>http://img.sccnn.com/bimg/341/00023.gif</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+	</gif>
+	<png>
+		<picture id="7" name="logo4" sort="logo">
+			<size>211471</size>
+			<pixel height="640" width="790">640x790</pixel>
+			<address>http://img.sccnn.com/bimg/341/00007.jpg</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="10" name="logo5" sort="logo">
+			<size>227551</size>
+			<pixel height="500" width="843">500x843</pixel>
+			<address>http://img.sccnn.com/bimg/341/00010.png</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="15" name="logo6" sort="logo">
+			<size>150903</size>
+			<pixel height="566" width="841">566x841</pixel>
+			<address>http://img.sccnn.com/bimg/341/00015.png</address>
+			<modify year="2018" month="3" day="13">2018/3/13</modify>
+		</picture>
+		<picture id="21" name="advertising2" sort="advertising">
+			<size>222222</size>
+			<pixel height="600" width="900">600x900</pixel>
+			<address>http://img.sccnn.com/bimg/341/00021.png</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+		<picture id="27" name="advertising7" sort="advertising">
+			<size>123066</size>
+			<pixel height="600" width="650">600x650</pixel>
+			<address>http://img.sccnn.com/bimg/341/00027.png</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+		<picture id="28" name="advertising8" sort="advertising">
+			<size>12389</size>
+			<pixel height="620" width="750">620x750</pixel>
+			<address>http://img.sccnn.com/bimg/341/00028.png</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+		<picture id="29" name="logo8" sort="logo">
+			<size>134533</size>
+			<pixel height="650" width="800">650x800</pixel>
+			<address>http://img.sccnn.com/bimg/341/00029.png</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+		<picture id="30" name="logo9" sort="logo">
+			<size>12233</size>
+			<pixel height="590" width="840">590x840</pixel>
+			<address>http://img.sccnn.com/bimg/341/00030.png</address>
+			<modify year="2018" month="4" day="8">2018/4/8</modify>
+		</picture>
+	</png>
+</NEWCATALOG>

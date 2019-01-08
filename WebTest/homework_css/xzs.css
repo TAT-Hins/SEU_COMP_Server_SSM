@@ -1,0 +1,29 @@
+CATALOG
+{
+background-color: #ffffff;
+width: 100%;
+}
+picture
+{
+display: block;
+margin-bottom: 30pt;
+margin-left: 0;
+}
+size,pixel
+{
+color: #000000;
+margin-left: 20pt;
+display: block;
+}
+address
+{
+color: blue;
+margin-left: 20pt;
+display: block;
+}
+create,modify,visit
+{
+display: block;
+color: #000000;
+margin-left: 20pt;
+}

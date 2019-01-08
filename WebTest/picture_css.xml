@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="picture.css"?>
+<!--DOCTYPE CATALOG SYSTEM "picture.dtd"-->
+<CATALOG>
+	<picture name="00001">
+		<basics type="jpg">
+			<size>130460</size>
+			<pixel height="600" width="900">600x900</pixel>
+			<address>http://img.sccnn.com/bimg/341/00001.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="3" day="13">2018-03-13</create>
+			<modify year="2018" month="3" day="13">2018-03-13</modify>
+			<visit year="2018" month="3" day="13">2018-03-13</visit>
+		</time>
+	</picture>
+	<picture name="00002">
+		<basics type="jpg">
+			<size>51781</size>
+			<pixel height="600" width="450">600x450</pixel>
+			<address>http://img.sccnn.com/bimg/341/00002.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="3" day="13">2018-03-13</create>
+			<modify year="2018" month="3" day="13">2018-03-13</modify>
+			<visit year="2018" month="3" day="13">2018-03-13</visit>
+		</time>
+	</picture>
+	<picture name="00003">
+		<basics type="jpg">
+			<size>22750</size>
+			<pixel height="600" width="400">600x400</pixel>
+			<address>http://img.sccnn.com/bimg/341/00003.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="3" day="13">2018-03-13</create>
+			<modify year="2018" month="3" day="13">2018-03-13</modify>
+			<visit year="2018" month="3" day="13">2018-03-13</visit>
+		</time>
+	</picture>
+	<picture name="00004">
+		<basics type="jpg">
+			<size>22706</size>
+			<pixel height="600" width="429">600x429</pixel>
+			<address>http://img.sccnn.com/bimg/341/00004.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="3" day="13">2018-03-13</create>
+			<modify year="2018" month="3" day="13">2018-03-13</modify>
+			<visit year="2018" month="3" day="13">2018-03-13</visit>
+		</time>
+	</picture>
+	<picture name="00005">
+		<basics type="jpg">
+			<size>100519</size>
+			<pixel height="600" width="570">600x570</pixel>
+			<address>http://img.sccnn.com/bimg/341/00005.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="3" day="13">2018-03-13</create>
+			<modify year="2018" month="3" day="13">2018-03-13</modify>
+			<visit year="2018" month="3" day="13">2018-03-13</visit>
+		</time>
+	</picture>
+</CATALOG>

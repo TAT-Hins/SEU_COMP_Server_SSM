@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+<svg viewBox="0 0 640 480" width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <polygon fill="#000000" id="svg_19"/>
+  <polygon fill="#000000" id="svg_20"/>
+  <polygon fill="#000000" id="svg_21"/>
+  <polygon fill="#000000" id="svg_22"/>
+  <polygon fill="#000000" id="svg_23"/>
+  <polygon fill="#000000" id="svg_24"/>
+  <g id="svg_2">
+   <rect height="372.333" width="399" y="47.3334" x="117.333" stroke-width="2" stroke-opacity="0" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" fill="#00bfbf" opacity="0.75" id="svg_1"/>
+   <path d="m196.59596,236.81259c0,-59.29642 19.9406,-127.20287 121.58083,-127.20287c101.64023,0 129.64142,67.90646 129.64142,127.20287c0,59.29639 -57.55542,112.6275 -126.95456,112.6275c-69.39778,0 -124.26768,-53.33112 -124.26768,-112.6275z" stroke-width="8" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" fill="#ffffff" id="svg_7"/>
+   <ellipse ry="25.2572" rx="35.2862" cy="285.122" cx="255.133" transform="matrix(1.24561 0.496365 -0.503259 1.22855 88.8904 -241.82)" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" fill="#ffd800" id="svg_9"/>
+   <ellipse ry="25.2572" rx="35.2862" cy="249.788" cx="313.038" transform="matrix(1.24561 -0.496365 0.503259 1.22855 -134.213 82.2845)" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" fill="#ffd800" id="svg_12"/>
+   <rect height="63.6015" width="18.8081" y="205.012" x="180.474" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" fill="#ffffff" id="svg_13"/>
+   <rect height="63.6015" width="18.8081" y="205.012" x="447.147" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" fill="#ffffff" id="svg_15"/>
+   <path d="m304.07074,109.62299l8.80215,-21.76163l18.19009,-0.77714c2.54318,6.73553 10.36734,17.35657 9.38928,20.20671c-0.97803,2.85014 -12.12717,100.51543 -18.77716,141.44691l-17.60437,-138.33839l0,-0.77646z" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#000000" fill="#000000" id="svg_17"/>
+  </g>
+ </g>
+</svg>

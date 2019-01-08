@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+	<picture id="1" name="example of a house">
+		<basics type="jpg" sort="view">
+			<size>72268</size>
+			<pixel height="600" width="366">600x366</pixel>
+			<address>http://img.sccnn.com/bimg/341/00051.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="4" day="17">2018/4/17</create>
+			<modify year="2018" month="4" day="17">2018/4/17</modify>
+			<visit year="2018" month="4" day="17">2018/4/17</visit>
+		</time>
+	</picture>
+	<picture id="2" name="a chair">
+		<basics type="jpg" sort="item">
+			<size>73076</size>
+			<pixel height="600" width="465">600x465</pixel>
+			<address>http://img.sccnn.com/bimg/341/00052.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="4" day="17">2018/4/17</create>
+			<modify year="2018" month="4" day="17">2018/4/17</modify>
+			<visit year="2018" month="4" day="17">2018/4/17</visit>
+		</time>
+	</picture>
+	<picture id="3" name="a sofa">
+		<basics type="jpg" sort="item">
+			<size>69377</size>
+			<pixel height="600" width="366">600x465</pixel>
+			<address>http://img.sccnn.com/bimg/341/00053.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="4" day="17">2018/4/17</create>
+			<modify year="2018" month="4" day="17">2018/4/17</modify>
+			<visit year="2018" month="4" day="17">2018/4/17</visit>
+		</time>
+	</picture>
+	<picture id="4" name="example of a house">
+		<basics type="jpg" sort="view">
+			<size>78443</size>
+			<pixel height="600" width="397">600x397</pixel>
+			<address>http://img.sccnn.com/bimg/341/00054.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="4" day="17">2018/4/17</create>
+			<modify year="2018" month="4" day="17">2018/4/17</modify>
+			<visit year="2018" month="4" day="17">2018/4/17</visit>
+		</time>
+	</picture>
+	<picture id="5" name="a poet with a font">
+		<basics type="jpg" sort="view">
+			<size>109427</size>
+			<pixel height="650" width="600">650x600</pixel>
+			<address>http://img.sccnn.com/bimg/341/00055.jpg</address>
+		</basics>
+		<time>
+			<create year="2018" month="4" day="17">2018/4/17</create>
+			<modify year="2018" month="4" day="17">2018/4/17</modify>
+			<visit year="2018" month="4" day="17">2018/4/17</visit>
+		</time>
+	</picture>
+</CATALOG>	

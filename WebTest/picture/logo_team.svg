@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+<svg viewBox="0 0 640 480"  width="640" height="480"
+	xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="334" width="334" y="84" x="141" stroke-width="5" stroke="#ffd800" fill="#ffd800"/>
+  <text transform="matrix(5.63106, 0, 0, 5.29253, -1469.9, -1017.27)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="248.05527" x="315.26207" stroke-width="0" stroke="#ffd800" fill="#000000">SI4</text>
+ </g>
+</svg>

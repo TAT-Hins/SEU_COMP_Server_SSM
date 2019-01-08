@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+    
+  <!-- 配置MyBatis执行引擎 -->
+  <settings>
+    <setting name="cacheEnabled" value="false" />
+    <setting name="lazyLoadingEnabled" value="false" />
+    <setting name="multipleResultSetsEnabled" value="true" />
+    <setting name="useColumnLabel" value="true" />
+    <setting name="useGeneratedKeys" value="false" />
+    <setting name="defaultExecutorType" value="SIMPLE" />
+  </settings>
+    
+  <!-- 配置MyBatis查询返回类型的别名 -->
+  <typeAliases>
+    <typeAlias type="com.seu.cose.seu_comp.entity.UserEntity" alias="UserEntity" />
+  </typeAliases>
+  
+</configuration>

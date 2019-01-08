@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="CATALOG">
+		<xs:complexType>
+			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="picture"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="picture">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="basics"/>
+				<xs:element ref="time"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="basics">
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element ref="size"/>
+				<xs:element ref="pixel"/>
+				<xs:element ref="address"/>
+			</xs:sequence>
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="gif"/>
+						<xs:enumeration value="jpg"/>
+						<xs:enumeration value="png"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="time">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="create"/>
+				<xs:element ref="modify"/>
+				<xs:element ref="visit"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="size">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:maxExclusive value="20971520"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="pixel">
+		<xs:complexType mixed="true">
+			<xs:attribute name="height" type="xs:decimal" use="required"/>
+			<xs:attribute name="width" type="xs:decimal" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="height">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+			<xs:maxInclusive value="10000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="width">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+			<xs:maxInclusive value="10000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="address">
+		<xs:complexType mixed="true"/>
+	</xs:element>
+	<xs:element name="create">
+		<xs:complexType mixed="true">
+			<xs:attribute name="year" type="xs:decimal" use="required"/>
+			<xs:attribute name="month" type="xs:decimal" use="required"/>
+			<xs:attribute name="day" type="xs:decimal" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="modify">
+		<xs:complexType mixed="true">
+			<xs:attribute name="year" type="xs:decimal" use="required"/>
+			<xs:attribute name="month" type="xs:decimal" use="required"/>
+			<xs:attribute name="day" type="xs:decimal" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="visit">
+		<xs:complexType mixed="true">
+			<xs:attribute name="year" type="xs:decimal" use="required"/>
+			<xs:attribute name="month" type="xs:decimal" use="required"/>
+			<xs:attribute name="day" type="xs:decimal" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="year">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="1970"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="month">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="12"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="day">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="1"/>
+			<xs:maxInclusive value="31"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

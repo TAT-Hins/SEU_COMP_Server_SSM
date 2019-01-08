@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{
+	display: inline;
+	font-size: 15pt;
+	font-style: normal;
+}
+
+catalog{
+	display: block;
+	width: 30px;
+}
+
+size{
+	color: #F70909;
+	font-weight: bold;
+}
+
+pixel{
+	display: block;
+}
+
+address{
+	display: block;
+	font-family: "Comic Sans MS";
+}
+
+time create, time modify, time visit{
+	font-family: arial;
+	display: block;
+	font-style: italic;
+}

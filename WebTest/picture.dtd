@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!ELEMENT CATALOG (picture)*>
+ <!ELEMENT picture (basics,time)>
+ <!ATTLIST picture name CDATA #REQUIRED>
+ <!ELEMENT basics (size,pixel,address)>
+ <!ATTLIST basics type (jpg|png|gif) #REQUIRED>
+ <!ELEMENT time (create,modify,visit)>
+ <!ELEMENT size (#PCDATA)>
+ <!ELEMENT pixel (#PCDATA)>
+ <!ATTLIST pixel height CDATA #REQUIRED>
+ <!ATTLIST pixel width CDATA #REQUIRED>
+ <!ELEMENT address (#PCDATA)>
+ <!ELEMENT create (#PCDATA)>
+ <!ATTLIST create year CDATA #REQUIRED>
+ <!ATTLIST create month CDATA #REQUIRED>
+ <!ATTLIST create day CDATA #REQUIRED>
+ <!ELEMENT modify (#PCDATA)>
+ <!ATTLIST modify year CDATA #REQUIRED>
+ <!ATTLIST modify month CDATA #REQUIRED>
+ <!ATTLIST modify day CDATA #REQUIRED>
+ <!ELEMENT visit (#PCDATA)>
+ <!ATTLIST visit year CDATA #REQUIRED>
+ <!ATTLIST visit month CDATA #REQUIRED>
+ <!ATTLIST visit day CDATA #REQUIRED>

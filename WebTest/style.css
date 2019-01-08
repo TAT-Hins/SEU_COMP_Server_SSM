@@ -1,0 +1,164 @@
+@charset "utf-8";
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #202020;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #000000;
+	}
+	
+	h1
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 30;
+		font-size: 12pt;
+		color: #FFFFFF;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+		
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		float: left;
+		width: 250px;
+		padding: 3em 0em;
+	}
+	
+	#member_0, #member_1, #member_2
+	{
+		color: #EEEEEE;
+	}
+	
+	#member_0 p
+	{
+		 padding-left: 30px;
+		 font-size: 24px;
+		 font-weight: bold;
+	}
+	
+	#member_1 p
+	{
+		 padding-left: 30px;
+		 font-size: 24px;
+		 font-weight: bold;
+	}
+	
+	#member_2 p
+	{
+		 padding-left: 30px;
+		 font-size: 24px;
+		 font-weight: bold;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	
+	#logo h1
+	{
+		display: block;
+	}
+	
+	#logo img
+	{
+		display: inline-block;
+		margin-bottom: 1em;
+		border-radius: 50%;
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		background: #2a2a2a;
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		overflow: hidden;
+		float: right;
+		width: 850px;
+		padding: 3em 50px 5em 50px;
+		background: #FFFFFF;
+		/**
+		border-top: 6px solid #2980b9;
+		**/
+		text-align: center;
+		height: 100%;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright span
+	{
+		display: block;
+		letter-spacing: 0.20em;
+		line-height: 2.5em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(0,0,0,0.7);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+	}
+
+	.fa
+	{
+		display: block;
+		color: #000;
+		background: red;
+	}
+	
+	#footer
+	{
+		text-align:center; position :absolution ; bottom:100px"
+	}
+	
+	#personTable
+	{
+		color:#FFFFFF; font-size: 10pt;
+	}
