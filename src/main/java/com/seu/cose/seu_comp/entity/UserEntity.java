@@ -2,95 +2,75 @@ package com.seu.cose.seu_comp.entity;
 
 import java.util.Date;
 
-import org.springframework.format.annotation.DateTimeFormat;
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 public class UserEntity {
-    
-    // Global unique identification
     private Integer id;
 
-    // Unique Card Number
-    private String cardID;
+    private String cardid;
 
-    // User nickname
     private String nickname;
 
-    // User password for login
     private String password;
 
-    // User mobile phone
-    private String mobile;
+    private String phonenum;
 
-    // User email
-    // Used for account management ( e.g. Find password back, applying for re-activating account, etc.)
     private String email;
 
-    // User-set gender
-    // true: male
-    // false: female
     private Boolean gender;
 
-    // Account type
-    // Administrator or Normal User
-    private Boolean isAdmin;
-    
-    // Activate Status
-    // Account may be freezed due to some illegal behaviors
-    private Boolean isActivated;
+    private Boolean accounttype;
 
-    // User-set birthday
+    private Boolean avtivatestatus;
+
     private Date birthday;
 
-    // User registry date
-    private Date regDate;
+    private Date registerdate;
 
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer userID) {
-        this.id = userID;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getCardid() {
-        return cardID;
+        return cardid;
     }
 
-    public void setCardid(String userCardID) {
-        this.cardID = (userCardID == null) ? null : userCardID.trim();
+    public void setCardid(String cardid) {
+        this.cardid = cardid == null ? null : cardid.trim();
     }
 
     public String getNickname() {
         return nickname;
     }
 
-    public void setNickname(String userNickname) {
-        this.nickname = (userNickname == null) ? null : userNickname.trim();
+    public void setNickname(String nickname) {
+        this.nickname = nickname == null ? null : nickname.trim();
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String userPwd) {
-        this.password = (userPwd == null) ? null : userPwd.trim();
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
     }
 
     public String getPhonenum() {
-        return mobile;
+        return phonenum;
     }
 
-    public void setPhonenum(String userPhone) {
-        this.mobile = (userPhone == null) ? null : userPhone.trim();
+    public void setPhonenum(String phonenum) {
+        this.phonenum = phonenum == null ? null : phonenum.trim();
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String userEmail) {
-        this.email = (userEmail == null) ? null : userEmail.trim();
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
     }
 
     public Boolean getGender() {
@@ -102,23 +82,21 @@ public class UserEntity {
     }
 
     public Boolean getAccounttype() {
-        return isAdmin;
+        return accounttype;
     }
 
     public void setAccounttype(Boolean accounttype) {
-        this.isAdmin = accounttype;
-    }
-    
-    public Boolean getActivateStatus() {
-        return isActivated;
+        this.accounttype = accounttype;
     }
 
-    public void setActivateStatus(Boolean activatestatus) {
-        this.isActivated = activatestatus;
+    public Boolean getAvtivatestatus() {
+        return avtivatestatus;
     }
 
-	@DateTimeFormat(pattern="yyyy-MM-dd")
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    public void setAvtivatestatus(Boolean avtivatestatus) {
+        this.avtivatestatus = avtivatestatus;
+    }
+
     public Date getBirthday() {
         return birthday;
     }
@@ -127,13 +105,11 @@ public class UserEntity {
         this.birthday = birthday;
     }
 
-	@DateTimeFormat(pattern="yyyy-MM-dd")
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     public Date getRegisterdate() {
-        return regDate;
+        return registerdate;
     }
 
-    public void setRegisterdate(Date registerDate) {
-        this.regDate = registerDate;
+    public void setRegisterdate(Date registerdate) {
+        this.registerdate = registerdate;
     }
 }

@@ -12,7 +12,7 @@ public interface UserEntityMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserEntity record) throws com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException;
+    int insert(UserEntity record);
 
     int insertSelective(UserEntity record);
 
@@ -27,7 +27,4 @@ public interface UserEntityMapper {
     int updateByPrimaryKeySelective(UserEntity record);
 
     int updateByPrimaryKey(UserEntity record);
-    
-    //Deprecated
-    List<UserEntity> getUsers();
 }

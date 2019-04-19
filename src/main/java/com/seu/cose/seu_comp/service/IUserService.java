@@ -1,9 +1,10 @@
 package com.seu.cose.seu_comp.service;
 
+import com.seu.cose.seu_comp.entity.UserEntity;
+
 import java.util.List;
 
 import org.springframework.stereotype.Service;
-import com.seu.cose.seu_comp.entity.UserEntity;
 
 @Service
 public interface IUserService {

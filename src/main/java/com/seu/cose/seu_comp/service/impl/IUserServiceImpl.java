@@ -1,5 +1,7 @@
 package com.seu.cose.seu_comp.service.impl;
 
+//import com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException;
+
 import java.util.Date;
 import java.util.List;
 
@@ -140,8 +142,11 @@ public class IUserServiceImpl implements IUserService {
 		int ret = 0;
 		try {
 			 ret = mapper.insert(newUser);
-		}catch(com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException e) {
+//		}catch(com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException e) {
+//			e.printStackTrace();
+		}catch(Exception e) {
 			e.printStackTrace();
+			ret = 0;
 		}
 		return (ret > 0);
 	}
